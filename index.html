@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/dkpiles.css">
+    <link rel="stylesheet" href="CSS/fonts.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+    <title>DK Piles</title>
+    <script
+    src="https://kit.fontawesome.com/7e5b2d153f.js"
+    crossorigin="anonymous"
+  ></script>
+    <script defer src="menu.js"> </script>
+</head>
+<body>
+    <div id="general">
+        <header>
+            <nav class="menunav">
+                <a href="index.html" class="logo"><img src="Imagenes/logo_large.png" width="100px" height="50px" id="logo"></a>
+                
+            <ul class="lista">
+                    <li class="lista-menu"><a href="club.html" class="link-nav">CLUB</a></li>
+                    <li class="lista-menu"><a href="multimedia.html" class="link-nav">FOTOS</a></li>
+                
+                    <li class="lista-menu"><a href="eventos.html" class="link-nav">NOTICIAS Y EVENTOS</a></li>
+                    <li class="lista-menu"><a href="contacto.html" class="link-nav">CONTACTO</a></li>
+                </ul>
+                <div class="botones">
+                    <div id="idioma" class="botones">
+                      <form method="GET" action="" name="idiomes">
+                        <select id="idioma" name="Idioma">
+                            <option value="es">Español </option>
+                            <option value="val" > Valencià</option>
+                            <option value="in" >English</option>    
+                        </select>
+                      </div>
+                      <div id="registro" class="botones">
+                        <button id="registro"><a href="registro.html"></a> Registro </button>
+                      </div>
+                      </form>
+                  </div>
+                  <button class="bt-menu" aria-label="Abrir menú">
+                    <i class="fas fa-bars"></i>
+                  </button>
+            </nav>
+            
+        </header>
+        <main>
+            <div id="texto">
+                <img src="Imagenes/fondo.png" alt="principal"/>
+            </div>
+            <h3 id="em">ESTACIONES METEREOLÓGICAS</h3>
+
+            <article id="estaciones">
+              
+                <section id="tiempo">
+                <div class="meteo"> 
+                    <h3 class="link-mt" > <a href="http://www.windguru.cz/int/distr_iframe.php?u=859484&s=504236&c=4044ee3e0c&lng=es">ESTACIÓN  DKPILES:</a></h3>
+                    <iframe src="http://www.windguru.cz/int/distr_iframe.php?u=859484&s=504236&c=4044ee3e0c&lng=es" height="250" width="495" title="marcoPrincipal" frameborder="0" ></iframe>
+                </div>
+            </section>
+            <section id="windy">
+                <div class="meteo"> 
+               <h3 class="link-mt" ><a href="https://www.windy.com/38.950/-0.113?38.914,-0.063,12,m:eJ3af8X">ESTACIÓN WINDY</h3></a>
+                <iframe width="495" height="445"
+                  src="https://embed.windy.com/embed2.html?lat=38.911&lon=-0.094&detailLat=38.959&detailLon=-0.121&width=650&height=450&zoom=11&level=surface&overlay=wind&product=ecmwf&menu=&message=&marker=true&calendar=now&pressure=&type=map&location=coordinates&detail=true&metricWind=km%2Fh&metricTemp=%C2%B0C&radarRange=-1"
+                  frameborder="0" >
+                </iframe>
+                </div>
+              </section>
+            
+            <h3> WEBCAMS EN CIUDADES DE LA COMUNIDAD VALENCIANA</h3>
+           <br><br>
+            <section id="webcam">
+              
+              <div class="wc">
+              <p id="p1">Gandia</p>
+              <img
+                src="http://turiscam.comunitatvalenciana.com/gandia.jpg?0.6469837288851448"
+                alt=""/>
+              </div>
+              <div class="wc">
+              <p id="p2">Villa Joiosa</p>
+            
+              <img src="blob:https://www.comunitatvalenciana.com/804db985-ff8b-4505-af9c-9bfc24f2b44e" alt=""/>
+             </div> 
+             <div class="wc">
+              <p id="p3">Denia</p>
+              <img
+                src="http://turiscam.comunitatvalenciana.com/denia.jpg?0.9229665768123658"
+                alt=""
+              />
+            </div>
+            <div class="wc">
+              <p id="p4">Altea</p>
+              <img
+                src="http://turiscam.comunitatvalenciana.com/altea.jpg?rand=0.8405594962715537"
+                alt=""
+              />
+            </div>
+            <div>
+              <h3 id="h3-directo">Playas en directo </h3>
+              <a id="cams" href="https://www.comunitatvalenciana.com/es/webcams">Más Cámaras</a>
+              
+            </div>
+            </section>
+            
+          </article>
+
+    </main>
+    <footer id="piepg">
+      <div> 
+      <a href="https://www.facebook.com/DunesKitePiles-285379918186780/"> <img src="Imagenes/facebook.png" class="ci"></a>© 2021 DKPiles todos los derechos reservados.
+      </div>
+
+     </footer>
+    
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+   <script>
+   window.cookieconsent.initialise({
+     "palette": {
+       "popup": {
+         "background": "#252e39"
+       },
+       "button": {
+         "background": "#14a7d0"
+       }
+     },
+     "content": {
+       "message": "Este sitio web utiliza cookies para garantizar que obtenga la mejor experiencia en nuestro sitio web.",
+       "dismiss": "¡Entendido!",
+       "link": "Aprende más."
+     }
+   });
+   </script>
+
+</body>
+</html>
+
+
+            

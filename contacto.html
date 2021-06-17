@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/dkpiles.css">
+    <link rel="stylesheet" href="CSS/fonts.css">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+    <title>DK Piles</title>
+    <script
+    src="https://kit.fontawesome.com/7e5b2d153f.js"
+    crossorigin="anonymous"
+  ></script>
+    <script defer src="menu.js"> </script>
+</head>
+<body>
+    <div id="general">
+      <header>
+        <nav class="menunav">
+            <a href="index.html" class="logo"><img src="Imagenes/logo_large.png" width="100px" height="50px" id="logo"></a>
+            
+        <ul class="lista">
+                <li class="lista-menu"><a href="club.html" class="link-nav">CLUB</a></li>
+                <li class="lista-menu"><a href="multimedia.html" class="link-nav">FOTOS</a></li>
+            
+                <li class="lista-menu"><a href="eventos.html" class="link-nav">NOTICIAS Y EVENTOS</a></li>
+                <li class="lista-menu"><a href="contacto.html" class="link-nav">CONTACTO</a></li>
+            </ul>
+            <div class="botones">
+                <div id="idioma" class="botones">
+                  <form method="GET" action="" name="idiomes">
+                    <select id="idioma" name="Idioma">
+                        <option value="es">Español </option>
+                        <option value="val" > Valencià</option>
+                        <option value="in" >English</option>    
+                    </select>
+                  </div>
+                  <div id="registro" class="botones">
+                    <button id="registro"><a href="registro.html"></a> Registro </button>
+                  </div>
+                  </form>
+              </div>
+              <button class="bt-menu" aria-label="Abrir menú">
+                <i class="fas fa-bars"></i>
+              </button>
+        </nav>
+        
+    </header>
+        <main>
+          
+          <h1>CONTACTANOS!</h1>
+          <div class="linea"></div>
+           <article>
+            <section>
+              <div id="contacto">
+               <h3> Nuestro contacto: </h3><br>
+               <p> Telefono: </p><br>
+               <p>Dirección: Polígono 02, 44, 46712 Piles, Valencia</p><br>
+               <p> Email: <a href="mailto:DKPiles@gmail.com">DKPiles@gmail.com</a> </p><br>
+           </div>
+         </section>
+             <section>
+              <div id="form1">
+                <h3>Rellena este formulario: </h3> <br>
+              <form action="" method="POST" name="form1"> 
+                  <label for="nombre" class="formul"> Nombre </label>
+                  <input name="nombre" id="nombre" type="text" placeholder="Escribe tu nombre"><br>
+                  <label class="formul" for="edad"> Edad</label>
+                  <input type="number" name="edad" id="edad"><br>
+                  <label class="formul" for="mail"> Email </label>
+                  <input name="mail" id="mail" type="email" placeholder="Escribe tu correo"><br>
+                  <label class="formul" for="tlf">Telefono</label>
+                  <input type="tel" name="tlf" placeholder="Número" id="tlf"><br>
+  
+                  <input type="submit" value="Enviar datos">
+              
+              
+              </form>
+          </div>
+             </section>
+            
+             <section>
+              <div>
+                <hr class="barra" color="beige">
+                <h1 class="visita"> Ven a visitarnos!!</h1>
+                <hr class="barra" color="beige">
+                <br>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3102.783133690049!2d-0.12033768464802833!3d38.95178247956241!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd61e7ae974e6c35%3A0x1acbce150101fa67!2sPol%C3%ADgono%2002%2C%2044%2C%2046712%20Piles%2C%20Valencia!5e0!3m2!1ses!2ses!4v1613501159828!5m2!1ses!2ses" width="750" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" id="mapadireccion"></iframe>
+    
+            </div>
+             </section>
+           </article>
+
+    </main>
+    <footer id="piepg">
+      <div> 
+      <a href="https://www.facebook.com/DunesKitePiles-285379918186780/"> <img src="Imagenes/facebook.png" class="ci"></a>© 2021 DKPiles todos los derechos reservados.
+      </div>
+
+     </footer>
+    
+    </div>
+</body>
+</html>
